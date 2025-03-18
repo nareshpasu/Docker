@@ -158,4 +158,4 @@ To enter the running container's shell:
 docker exec -it javawebapp /bin/bash
 ```
 
-T
+
