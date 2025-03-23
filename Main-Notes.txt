@@ -978,6 +978,8 @@ docker build -t firstimage .
 
 --> add some instructions and build to see the cache 
 
+NOTE: if you add instruction at ending, previous instructions will be taken from build cache, But if you add any instruction in the middle, remaiining instructions will be re executed.
+
 IQ] How to skip the build cache?
 
  docker build --no-cache -t firstimage1 .
