@@ -296,15 +296,14 @@ step 4: Build the artifactory
 
      mvn clean package
 
-    <build>
-    <plugins>
+    
         <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
             <version>3.3.2</version> <!-- Use a stable version -->
         </plugin>
-    </plugins>
-</build>
+    
+
 
 
 step 5: to build the docker image; please make sure to create a docker file.
